@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import LHT from "@/app/resources/logo/On_White.svg"
+import LHT from "@/app/resources/logo/ssa-logo.jpeg"
 
 export default function Footer() {
     return(

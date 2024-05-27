@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import LOGO from "@/app/resources/logo/LC_Skopje_white.png";
-import LOGO2 from "@/app/resources/logo/ea_logo.svg";
+import LOGO2 from "@/app/resources/logo/ssa-logo.jpeg";
 import Photo1 from "@/app/resources/logo/participants.png";
 import Photo2 from "@/app/resources/logo/participants_2.png";
 import Icon from "./Icon";
