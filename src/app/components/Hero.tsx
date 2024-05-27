@@ -7,18 +7,10 @@ import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 
 import Image from "next/image";
-import nextEvent from "@/app/resources/devops.jpg";
+import nextEvent from "@/app/resources/ssa.jpg";
 import { useState, useEffect } from "react";
 import { RevealList } from  'next-reveal'
 
-
-import img1 from "@/app/resources/ea_robotics.png";
-import img2 from "@/app/resources/net.jpg";
-import img3 from "@/app/resources/ui_ux.jpg";
-import img4 from "@/app/resources/vue.jpg";
-import img5 from "@/app/resources/frontend.jpg";
-import img6 from "@/app/resources/arduino.png";
-import Heading from "./Heading";
 
 export default function Hero() {
 
@@ -104,20 +96,15 @@ export default function Hero() {
         <div className="container mx-auto md:px-10 px-5 py-16">
           
           <h1 className="md:text-5xl text-4xl font-semibold my-3 text-balance text-white">
-              Stay on top of popular <span className="underline decoration-eestec">technologies</span>  <br /> with <span className="text-eestec font-bold">EESTEC ACADEMY</span>!
+              Stay on top of popular <span className="underline decoration-eestec">technologies</span>  <br /> with <span className="text-eestec font-bold shadow">SOFT SKILLS ACADEMY</span>!
           </h1>
           
           <p className="md:text-base text-sm text-slate-50 my-3 text-balance leading-none">
-          Learn through EESTEC ACADEMY&apos;s diffrent modules. <span className="font-medium underline decoration-eestec">Power Your Future!</span>
+          Learn through SOFT SKILLS ACADEMY&apos;s diffrent modules. <span className="font-medium underline decoration-eestec">Power Your Future!</span>
           </p>
-          <Link href={"https://docs.google.com/forms/d/e/1FAIpQLScCdt9R7owKxxetWBAUM60zvMtw6Lyy8uLqYOJ1zlkHMOmshA/viewform"}>
+          <Link href={"https://youtu.be/dQw4w9WgXcQ?si=b64e39J8Ei9UZ69L"} target="_blank">
             <Button text="Apply Now!" icon={MdArrowOutward}></Button>
             <span>Time Left to Apply:</span> <br />
-              {/* <span className="text-eestec font-bold">XX</span><span> d </span>
-              <span className="text-eestec font-bold">XX</span><span> h </span> 
-              <span className="text-eestec font-bold">XX</span><span> m </span> 
-              <span className="text-eestec font-bold">XX</span><span> s </span>   */}
-
                 {
                 (applyTime ? (<span className="text-red-500 font-bold">Time for Applying has ended!</span>) : (
                 <><span>{applyDays} d <span className="text-eestec font-bold"> : </span> 
@@ -127,19 +114,17 @@ export default function Hero() {
                 )
               }
 
-              
-              
           </Link>
           <br />
           <Link href={"https://www.instagram.com/eestec_ssa/"}>
-              <FaInstagram size={60} color="#902264"></FaInstagram> 
+              <FaInstagram size={60} color="#6F2864"></FaInstagram> 
           </Link>
         </div>
 
         <div className="lg:flex justify-evenly items-center gap-14">
           <h1 className="md:text-5xl text-4xl font-semibold my-3 text-center text-white">
-          Next<span> <span className="text-eestec font-bold">event</span> in:</span> <br /> <br />
-          {(eventTime ? (<span className="text-eestec font-bold">Event has started!</span>) : (
+          Next<span> <span className="text-eestec font-bold shadow">event</span> in:</span> <br /> <br />
+          {(eventTime ? (<span className="text-eestec font-bold shadow">Event has started!</span>) : (
                 <><span>{days} d <span className="text-eestec font-bold"> : </span> 
                 {hours} h <span className="text-eestec font-bold"> : </span> 
                 {minutes} mins <span className="text-eestec font-bold"> : </span> 
@@ -148,7 +133,7 @@ export default function Hero() {
               }
           </h1>
           <div>
-            <h1 className="md:text-5xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold">Coming </span>next:</h1>
+            <h1 className="md:text-5xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold shadow">Coming </span>next:</h1>
           <Image src={nextEvent} alt="Next event" height={500} className="mt-8 mb-8"></Image>
           </div>
                 

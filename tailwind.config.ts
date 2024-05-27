@@ -17,16 +17,16 @@ const config: Config = {
         eestec: ['Roboto', 'sans-serif']
       },
       colors: {
-        eestec: "#902264"
+        eestec: "#6F2864"
       },
       backgroundColor: {
-        eestec: "#902264"
+        eestec: "#6F2864"
       },
       fill: {
-        eestec: "#902264"
+        eestec: "#6F2864"
       },
       border: {
-        eestec: "#902264"
+        eestec: "#6F2864"
       },
     },
   },

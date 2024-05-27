@@ -16,7 +16,7 @@ export default function Header() {
                 <Image src={EA} alt="EA Logo" width={100} height={100} className="py-3"/>
                 </Link>
          
-                <h3 className="max-md:hidden font-eestec text-eestec text-3xl font-semibold pt-2">Power Your Future</h3>
+                <h3 className="max-md:hidden font-eestec text-eestec text-3xl font-semibold pt-2">Soft Skills Academy</h3>
             </nav>
         </header>
     );

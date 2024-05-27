@@ -6,6 +6,7 @@ import Sponsors from "./components/Sponsors";
 import Statistics from "./components/Statistics";
 import Events from "./components/Events";
 import Organizators from "./components/organizators";
+import ContactUs from "./components/contactUs";
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
       <Statistics></Statistics>
       <Events></Events>
       <Sponsors></Sponsors>
-      <Promo></Promo>
+      {/* <Promo></Promo> */}
+      <ContactUs></ContactUs>
     </>
   );
 }
