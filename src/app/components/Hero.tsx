@@ -131,8 +131,8 @@ export default function Hero() {
               
           </Link>
           <br />
-          <Link href={"https://www.instagram.com/ea_skopje"}>
-              <FaInstagram size={60} color="#0b7eb5"></FaInstagram> 
+          <Link href={"https://www.instagram.com/eestec_ssa/"}>
+              <FaInstagram size={60} color="#902264"></FaInstagram> 
           </Link>
         </div>
 

@@ -18,9 +18,9 @@ export default function Events() {
             <Heading heading={"Latest Events"}></Heading>
             </div>
             <div className="lg:flex justify-evenly items-center gap-14">
-                <Image src={img1} alt="Sponsor Logo" height={400} style={{border: "5px solid #0b7eb5" }} className="mt-8 mb-8"></Image>
-                <Image src={img2} alt="Sponsor Logo" height={400} style={{border: "5px solid #0b7eb5" }} className="mt-8 mb-8"></Image>
-                <Image src={img3} alt="Sponsor Logo" height={400} style={{border: "5px solid #0b7eb5" }} className="mt-8 mb-8"></Image>
+                <Image src={img1} alt="Sponsor Logo" height={400} style={{border: "5px solid #902264" }} className="mt-8 mb-8"></Image>
+                <Image src={img2} alt="Sponsor Logo" height={400} style={{border: "5px solid #902264" }} className="mt-8 mb-8"></Image>
+                <Image src={img3} alt="Sponsor Logo" height={400} style={{border: "5px solid #902264" }} className="mt-8 mb-8"></Image>
             </div>
 
 
@@ -29,9 +29,9 @@ export default function Events() {
           }} */}
 
             <div className="lg:flex justify-evenly items-center gap-14">
-                <Image src={img4} alt="Sponsor Logo" height={400} style={{border: "5px solid #0b7eb5" }} className="mt-8 mb-8"></Image>
-                <Image src={img5} alt="Sponsor Logo" height={400} style={{border: "5px solid #0b7eb5" }} className="mt-8 mb-8"></Image>
-                <Image src={img6} alt="Sponsor Logo" height={400} style={{border: "5px solid #0b7eb5" }} className="mt-8 mb-8"></Image>
+                <Image src={img4} alt="Sponsor Logo" height={400} style={{border: "5px solid #902264" }} className="mt-8 mb-8"></Image>
+                <Image src={img5} alt="Sponsor Logo" height={400} style={{border: "5px solid #902264" }} className="mt-8 mb-8"></Image>
+                <Image src={img6} alt="Sponsor Logo" height={400} style={{border: "5px solid #902264" }} className="mt-8 mb-8"></Image>
             </div>
             </RevealList>
             
