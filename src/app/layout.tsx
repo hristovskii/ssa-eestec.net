@@ -7,8 +7,8 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EESTEC Academy",
-  description: "EA - EESTEC Academy Workshop",
+  title: "Soft Skills Academy",
+  description: "SSA - EESTEC Soft Skills Academy Workshop",
 };
 
 export default function RootLayout({
