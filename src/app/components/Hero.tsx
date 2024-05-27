@@ -96,7 +96,7 @@ export default function Hero() {
         <div className="container mx-auto md:px-10 px-5 py-16">
           
           <h1 className="md:text-5xl text-4xl font-semibold my-3 text-balance text-white">
-              Stay on top of popular <span className="underline decoration-eestec">technologies</span>  <br /> with <span className="text-eestec font-bold shadow">SOFT SKILLS ACADEMY</span>!
+              Stay sharp with <span className="underline decoration-eestec">communication, teamwork, and adaptability </span>  <br /> with <span className="text-eestec font-bold shadow">SOFT SKILLS ACADEMY</span>!
           </h1>
           
           <p className="md:text-base text-sm text-slate-50 my-3 text-balance leading-none">
