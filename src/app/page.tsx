@@ -4,7 +4,7 @@ import KeyFeatures from "./components/KeyFeatures";
 import Promo from "./components/Promo";
 import Sponsors from "./components/Sponsors";
 import Statistics from "./components/Statistics";
-import Events from "./components/Events";
+import Events from "./components/Cities";
 import Organizators from "./components/organizators";
 import ContactUs from "./components/contactUs";
 import AboutEestec from "./components/aboutEestec";

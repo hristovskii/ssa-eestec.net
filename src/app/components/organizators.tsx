@@ -8,6 +8,7 @@ import img4 from "@/app/resources/organizators/petar.jpeg";
 import img5 from "@/app/resources/organizators/petar.jpeg";
 import Heading from "./Heading";
 import { RevealList } from  'next-reveal'
+import OriganizatorImage from "./OrganizatorImage";
 
 export default function Organizators() {
     return(
@@ -18,38 +19,14 @@ export default function Organizators() {
             <Heading heading={"Organizators for the coming event"}></Heading>
             </div>
             <div className="lg:flex justify-evenly items-center gap-14">
-                <div className="text-eestec text-center items-center" >
-                <Image src={img1} alt="Sponsor Logo" height={300} style={{ borderRadius: "50%", border: "5px solid #6F2864" }} className="mt-8 mb-8"></Image>
-                <h1 className="md:text-3xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold">Petar The Sexy Guy</span></h1>
-                <h1 className="md:text-2xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold">Head Organizator</span></h1>
-                </div>
-                
-                <div className="text-eestec text-center items-center" >
-                <Image src={img2} alt="Sponsor Logo" height={300} style={{ borderRadius: "50%", border: "5px solid #6F2864" }} className="mt-8 mb-8"></Image>
-                <h1 className="md:text-3xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold">Petar The Sexy Guy </span></h1>
-                <h1 className="md:text-2xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold">FR coordinator</span></h1>
-                </div>
-
-                <div className="text-eestec text-center items-center" >
-                <Image src={img3} alt="Sponsor Logo" height={300} style={{ borderRadius: "50%", border: "5px solid #6F2864" }} className="mt-8 mb-8"></Image>
-                <h1 className="md:text-3xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold">Petar The Sexy Guy </span></h1>
-                <h1 className="md:text-2xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold">HR coordinator</span></h1>
-                </div>
+                <OriganizatorImage sourceImage={img1} nameSurname={"Petar The Sexy Guy"} position={"Head Organizator"}></OriganizatorImage>
+                <OriganizatorImage sourceImage={img1} nameSurname={"Petar The Sexy Guy"} position={"FR coordinator"}></OriganizatorImage>
+                <OriganizatorImage sourceImage={img1} nameSurname={"Petar The Sexy Guy"} position={"HR coordinator"}></OriganizatorImage>
             </div>
 
             <div className="lg:flex justify-evenly items-center">
-                <div className="text-eestec text-center items-center" >
-                <Image src={img4} alt="Sponsor Logo" height={300} style={{ borderRadius: "50%", border: "5px solid #6F2864" }} className="mt-8 mb-8"></Image>
-                <h1 className="md:text-3xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold">Petar The Sexy Guy</span></h1>
-                <h1 className="md:text-2xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold">PR coordinator</span></h1>
-                </div>
-
-                <div className="text-eestec text-center items-center" >
-                <Image src={img5} alt="Sponsor Logo" height={300} style={{ borderRadius: "50%", border: "5px solid #6F2864" }} className="mt-8 mb-8"></Image>
-                <h1 className="md:text-3xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold">Petar The Sexy Guy</span></h1>
-                <h2 className="md:text-2xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold">PR coordinator</span></h2>
-                </div>
-                
+            <OriganizatorImage sourceImage={img1} nameSurname={"Petar The Sexy Guy"} position={"PR coordinator"}></OriganizatorImage>
+            <OriganizatorImage sourceImage={img1} nameSurname={"Petar The Sexy Guy"} position={"IT coordinator"}></OriganizatorImage>
             </div>
             </RevealList>
         </section>
