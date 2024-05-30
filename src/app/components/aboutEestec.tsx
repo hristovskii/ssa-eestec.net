@@ -4,6 +4,7 @@ import Image from "next/image";
 import img1 from "@/app/resources/logo/eestec-logo.png";
 import Heading from "./Heading";
 import { RevealList } from "next-reveal";
+import Link from "next/link";
 
 export default function AboutEestec() {
   return (
@@ -35,7 +36,9 @@ export default function AboutEestec() {
         </div>
         <div className="lg:flex justify-evenly items-center gap-14">
                 <div className="text-eestec text-center items-center" >
-                <Image src={img1} alt="Sponsor Logo" height={200} className="mt-8 mb-8"></Image>
+                  <Link href="https://eestec.net/" target="_blank" >
+                  <Image src={img1} alt="Sponsor Logo" height={200} className="mt-8 mb-8"></Image>
+                  </Link>
                 </div>
             </div>
       </RevealList>

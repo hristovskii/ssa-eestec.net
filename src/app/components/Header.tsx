@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <header className="bg-white px-12 w-full">
             <nav className="flex md:justify-between  items-center justify-center">
-                <Link href={"/"}>
+                <Link href={"https://eestec.net/"} target="_blank">
                     <Image src={EESTEC} alt="EESTEC Logo" width={100} height={100} className="py-3 mx-10"/>
                 </Link>
                 <Link href={"/"}>
