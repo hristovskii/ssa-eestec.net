@@ -15,7 +15,7 @@ export default function ContactUs() {
             <RevealList interval={80} delay={500}>
 
             
-            <div className="rounded bg-eestec md:px-12 py-6 px-8">
+            <div className="rounded md:px-12 bg-eestec py-6 px-8" style={{ borderRadius: "4rem", backgroundImage: "linear-gradient(180deg, #582050 40%, rgba(125, 61, 115, 0.7) 100%)" }}>
                 <h3 className="md:text-5xl lg:flex justify-center text-4xl font-semibold my-12 text-balance text-white">Contact Us</h3>
                 <p className="md:text-3xl lg:flex justify-center text-2xl font-semibold my-3 text-balance text-white">Want to get in touch with us?</p>
                 <div
@@ -25,13 +25,13 @@ export default function ContactUs() {
                 </div>
                 <div className="lg:flex justify-evenly items-center gap-14">
                     <div className="text-eestec text-center items-center" >
-                        <Image src={img1} alt="Sponsor Logo" height={350} style={{ borderRadius: "50%", border: "5px solid white" }} className="mt-8 mb-8"></Image>
+                        <Image src={img1} alt="Sponsor Logo" height={350} style={{ borderRadius: "20%", border: "5px solid white" }} className="mt-8 mb-8"></Image>
                         <h1 className="md:text-3xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-white font-bold">Kostis Ntozis</span></h1>
                         <h1 className="md:text-2xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-white font-bold">Board Assistant</span></h1>
                     </div>
                     
                     <div className="text-eestec text-center items-center" >
-                        <Image src={img2} alt="Sponsor Logo" height={350} style={{ borderRadius: "50%", border: "5px solid white" }} className="mt-8 mb-8"></Image>
+                        <Image src={img2} alt="Sponsor Logo" height={350} style={{ borderRadius: "20%", border: "5px solid white" }} className="mt-8 mb-8"></Image>
                         <h1 className="md:text-3xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-white font-bold">Anthi Gavriilidou </span></h1>
                         <h1 className="md:text-2xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-white font-bold">Board Assistant</span></h1>
                     </div>

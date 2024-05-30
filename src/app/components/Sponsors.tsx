@@ -20,7 +20,7 @@ export default function Sponsors() {
         </div>
 
         <div className="lg:flex justify-evenly items-center gap-14">
-          <h2 className="font-eestec text-black font-light mb-8">
+          <h2 className="font-eestec text-justify text-black font-light mb-8 indent-8">
             By having SSAs all over Europe, we create the opportunity for
             companies to come in touch with young people who have developed
             their soft skills and are ready to be placed in any type of position

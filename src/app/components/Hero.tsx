@@ -10,6 +10,7 @@ import Image from "next/image";
 import nextEvent from "@/app/resources/ssa.jpg";
 import { useState, useEffect } from "react";
 import { RevealList } from  'next-reveal'
+import Typewriter from 'typewriter-effect'; 
 
 
 export default function Hero() {
@@ -30,8 +31,8 @@ export default function Hero() {
 
     useEffect(() => {
 
-       const target = new Date("05/10/2024 17:00:00");
-       const applyTarget = new Date("05/07/2024 23:59:59");
+       const target = new Date("08/10/2024 17:00:00");
+       const applyTarget = new Date("07/07/2024 23:59:59");
     
 
       const interval = setInterval(() => {
@@ -65,9 +66,6 @@ export default function Hero() {
         const as = Math.floor((applyDifference % (1000 * 60)) / 1000);
         setApplySeconds(as);
 
-        const targetTime = new Date("05/02/2025 21:41:30"); // Convert target time to a Date object
-
-
 
         if(d<=0 && h<=0 && m<=0 && s<=0){
           setEventTime(true);
@@ -96,7 +94,26 @@ export default function Hero() {
         <div className="container mx-auto md:px-10 px-5 py-16">
           
           <h1 className="md:text-5xl text-4xl font-semibold my-3 text-balance text-white">
-              Stay sharp with <span className="underline decoration-eestec">communication, teamwork, and adaptability </span>  <br /> with <span className="text-eestec font-bold shadow">SOFT SKILLS ACADEMY</span>!
+              Stay sharp with <span className="underline decoration-eestec inline-block">
+              <Typewriter 
+        onInit={(typewriter) => { 
+          typewriter.typeString('communication') 
+            .pauseFor(1500) 
+            .deleteAll() 
+            .typeString('teamwork')
+            .pauseFor(1500)
+            .deleteAll()
+            .typeString('adaptability')
+            .pauseFor(1500)
+            .deleteAll()
+            .typeString('and more')
+            .pauseFor(1500)
+            .deleteAll()
+            .start(); 
+        }} 
+        options={{ loop: true }}
+      /> 
+                </span>  <br /> with <span className="text-eestec font-bold shadow">SOFT SKILLS ACADEMY</span>!
           </h1>
           
           <p className="md:text-base text-sm text-slate-50 my-3 text-balance leading-none">
@@ -124,17 +141,24 @@ export default function Hero() {
         <div className="lg:flex justify-evenly items-center gap-14">
           <h1 className="md:text-5xl text-4xl font-semibold my-3 text-center text-white">
           Next<span> <span className="text-eestec font-bold shadow">event</span> in:</span> <br /> <br />
-          {(eventTime ? (<span className="text-eestec font-bold shadow">Event has started!</span>) : (
-                <><span>{days} d <span className="text-eestec font-bold"> : </span> 
-                {hours} h <span className="text-eestec font-bold"> : </span> 
-                {minutes} mins <span className="text-eestec font-bold"> : </span> 
-                {seconds} sec</span><br /></> )
-                )
-              }
+          
+          {eventTime ? (
+            <span className="text-eestec font-bold shadow">Event has started!</span>
+          ) : (
+            <>
+              <span>{days} d <span className="text-eestec font-bold"> : </span> 
+              {hours} h <span className="text-eestec font-bold"> : </span> 
+              {minutes} mins <span className="text-eestec font-bold"> : </span> 
+              {seconds} sec</span><br />
+            </>
+          )}
+          
+          {}
+          
           </h1>
           <div>
             <h1 className="md:text-5xl text-4xl font-semibold my-3 text-center text-white"> <span className="text-eestec font-bold shadow">Coming </span>next:</h1>
-          <Image src={nextEvent} alt="Next event" height={500} className="mt-8 mb-8"></Image>
+          <Image src={nextEvent} alt="Next event" height={500} className="mt-8 mb-8" style={{ borderRadius: "4rem"}}></Image>
           </div>
                 
         </div>

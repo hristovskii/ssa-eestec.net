@@ -24,12 +24,12 @@ export default function EESTEC() {
                                         backgroundSize: "cover",
                                     }} className="grow shrink rounded">
                             </div>
-                            <div className="rounded border-2 border-eestec md:p-4 p-8 ml-3 flex justify-content items-center">
+                            <div className="rounded border-2 border-eestec md:p-3 p-2 ml-3 flex justify-content items-center">
                                 {/* <RiRobot2Line size={40} color="#149414"></RiRobot2Line> */}
-                                <Image src={LOGO2} alt="Sponsor Logo" height={200} className="mt-8 mb-8"></Image> 
+                                <Image src={LOGO2} alt="Sponsor Logo" height={150} className="mt-8 mb-8"></Image> 
                             </div>
                         </div>
-                        <div className="rounded bg-eestec mt-3 grow px-6 py-5 flex items-end lg:block hidden" style={{ height: "96px" }}>
+                        <div className="rounded bg-eestec mt-3 grow px-6 py-5 flex items-end lg:block hidden" style={{ height: "153px" }}>
                             <h3 className="text-4xl text-red font-eestec font-light px- my-2 flex">Power Your Future <Icon icon={MdElectricBolt} color={""} size={""}></Icon></h3>  
                         </div>
                 </div>

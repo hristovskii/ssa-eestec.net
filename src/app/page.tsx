@@ -7,16 +7,20 @@ import Statistics from "./components/Statistics";
 import Events from "./components/Events";
 import Organizators from "./components/organizators";
 import ContactUs from "./components/contactUs";
+import AboutEestec from "./components/aboutEestec";
+import AboutSSA from "./components/aboutSSA";
 
 export default function Home() {
   return (
     <>
       <Hero></Hero>
       <Organizators></Organizators>
+      <AboutSSA></AboutSSA>
       <KeyFeatures></KeyFeatures>
       <EESTEC></EESTEC>
       <Statistics></Statistics>
       <Events></Events>
+      <AboutEestec></AboutEestec>
       <Sponsors></Sponsors>
       {/* <Promo></Promo> */}
       <ContactUs></ContactUs>

@@ -19,19 +19,19 @@ export default function Events() {
             <Heading heading={"Latest Cities"}></Heading>
             </div>
             <div className="lg:flex justify-evenly items-center gap-14">
-                <Image src={img1} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864" }} className="mt-8 mb-8 zoom"></Image>
-                <Image src={img2} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864" }} className="mt-8 mb-8 zoom"></Image>
-                <Image src={img3} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864" }} className="mt-8 mb-8 zoom"></Image>
+                <Image src={img1} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864", borderRadius: "2rem"}} className="mt-8 mb-8 zoom"></Image>
+                <Image src={img2} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864", borderRadius: "2rem" }} className="mt-8 mb-8 zoom"></Image>
+                <Image src={img3} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864", borderRadius: "2rem" }} className="mt-8 mb-8 zoom"></Image>
             </div>
 
             <div className="lg:flex justify-evenly items-center gap-14">
-                <Image src={img4} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864" }} className="mt-8 mb-8 zoom"></Image>
-                <Image src={img5} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864" }} className="mt-8 mb-8 zoom"></Image>
-                <Image src={img6} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864" }} className="mt-8 mb-8 zoom"></Image>
+                <Image src={img4} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864", borderRadius: "2rem" }} className="mt-8 mb-8 zoom"></Image>
+                <Image src={img5} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864", borderRadius: "2rem" }} className="mt-8 mb-8 zoom"></Image>
+                <Image src={img6} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864", borderRadius: "2rem" }} className="mt-8 mb-8 zoom"></Image>
             </div>
 
             <div className="lg:flex justify-evenly items-center gap-14">
-                <Image src={img7} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864" }} className="mt-8 mb-8 zoom"></Image>
+                <Image src={img7} alt="Sponsor Logo" height={450} width={450} style={{border: "5px solid #6F2864", borderRadius: "2rem" }} className="mt-8 mb-8 zoom"></Image>
                 </div>
             </RevealList>
             

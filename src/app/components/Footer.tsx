@@ -3,6 +3,7 @@
 // import background from "@/app/resources/"
 import { FaInstagram, FaLinkedin, FaPeopleRobbery, FaSquareFacebook, FaXTwitter } from "react-icons/fa6";
 import IconComponent from "./Icon";
+import Link from "next/link";
 
 
 export default function Footer() {
@@ -20,20 +21,28 @@ export default function Footer() {
                 <div className="md:flex justify-center items-center gap-20">
                     
                 <article className="grid justify-items-center md:px-10 px-1 py-4 my-2">
+                <Link href={"https://www.instagram.com/eestec_ssa/"}>
                     <IconComponent icon={FaInstagram} size="4rem" color="white"></IconComponent>
                     <h3 className="text-center text-base text-neutral-700 underline text-white decoration-2 underline-offset-4 font-medium my-1">{"Instagram"}</h3>
+                </Link>
                 </article>
                 <article className="grid justify-items-center md:px-10 px-1 py-4 my-2">
+                <Link href={"https://www.facebook.com/eestecsoftskillsacademy/"}>
                     <IconComponent icon={FaSquareFacebook} size="4rem" color="white"></IconComponent>
                     <h3 className="text-center text-base text-neutral-700 underline text-white decoration-2 underline-offset-4 font-medium my-1">{"Facebook"}</h3>
+                </Link>
                 </article>
                 <article className="grid justify-items-center md:px-10 px-1 py-4 my-2">
+                <Link href={"https://x.com/EESTEC_SSA"}>
                     <IconComponent icon={FaXTwitter} size="4rem" color="white"></IconComponent>
                     <h3 className="text-center text-base text-neutral-700 underline text-white decoration-2 underline-offset-4 font-medium my-1">{"Twitter"}</h3>
+                </Link>
                 </article>
                 <article className="grid justify-items-center md:px-10 px-1 py-4 my-2">
+                    <Link href={"https://www.linkedin.com/company/18304656/"}>
                     <IconComponent icon={FaLinkedin} size="4rem" color="white"></IconComponent>
                     <h3 className="text-center text-base text-neutral-700 underline text-white decoration-2 underline-offset-4 font-medium my-1">{"LinkedIn"}</h3>
+                    </Link>
                 </article>
                 </div>
             
