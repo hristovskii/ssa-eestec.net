@@ -27,12 +27,9 @@ export default function ContactUs() {
 
                 <div className="lg:flex justify-evenly items-center gap-14">
                 
-                    <span className="rounded border px-7 py-2" style={{ borderRadius: "10%", backgroundColor: "rgba(0, 0, 0, 0.4)"}}>
-                        <BoardImage sourceImage={img1} nameSurname={"Kostis Ntozis"} position={"Board Assistant"}></BoardImage>
-                    </span>
-                    <span className="rounded border px-7 py-2" style={{ borderRadius: "10%", backgroundColor: "rgba(0, 0, 0, 0.4)"}}>
-                        <BoardImage sourceImage={img2} nameSurname={"Anthi Gavriilidou"} position={"Board Assistant"}></BoardImage>
-                    </span>
+                    <BoardImage sourceImage={img1} nameSurname={"Kostis Ntozis"} position={"Board Assistant"}></BoardImage>
+                    <BoardImage sourceImage={img2} nameSurname={"Anthi Gavriilidou"} position={"Board Assistant"}></BoardImage>
+                    
                     
                 </div>
             </div>

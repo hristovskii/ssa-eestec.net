@@ -3,6 +3,7 @@
 interface NumberProps {
     number: string;
     text: string;
+    id?: string;
 }
 
 export default function Numbers({ number, text } : NumberProps) {
