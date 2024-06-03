@@ -94,19 +94,19 @@ export default function Hero() {
         <div className="container mx-auto md:px-10 px-5 py-16">
           
           <h1 className="md:text-5xl text-4xl font-semibold my-3 text-balance text-white">
-              Stay sharp with <span className="underline decoration-eestec inline-block">
+              <span className="underline decoration-eestec inline-block">
               <Typewriter 
         onInit={(typewriter) => { 
-          typewriter.typeString('communication') 
+          typewriter.typeString('Communication') 
             .pauseFor(1500) 
             .deleteAll() 
-            .typeString('teamwork')
+            .typeString('Teamwork')
             .pauseFor(1500)
             .deleteAll()
-            .typeString('adaptability')
+            .typeString('Adaptability')
             .pauseFor(1500)
             .deleteAll()
-            .typeString('and more')
+            .typeString('And more')
             .pauseFor(1500)
             .deleteAll()
             .start(); 
@@ -140,7 +140,7 @@ export default function Hero() {
 
         <div className="lg:flex justify-evenly items-center gap-14">
           <h1 className="md:text-5xl text-4xl font-semibold my-3 text-center text-white">
-          Next<span> <span className="text-eestec font-bold shadow">event</span> in:</span> <br /> <br />
+          Next<span> <span className="text-eestec text-6xl font-bold shadow">event</span> in:</span> <br /> <br />
           
           {eventTime ? (
             <span className="text-eestec font-bold shadow">Event has started!</span>
