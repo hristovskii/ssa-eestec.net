@@ -19,14 +19,14 @@ export default function Organizators() {
             <Heading heading={"Organizators for the coming event"}></Heading>
             </div>
             <div className="lg:flex justify-evenly items-center gap-14">
-                <OriganizatorImage sourceImage={img1} nameSurname={"Petar The Sexy Guy"} position={"Head Organizator"}></OriganizatorImage>
-                <OriganizatorImage sourceImage={img1} nameSurname={"Petar The Sexy Guy"} position={"FR coordinator"}></OriganizatorImage>
-                <OriganizatorImage sourceImage={img1} nameSurname={"Petar The Sexy Guy"} position={"HR coordinator"}></OriganizatorImage>
+                <OriganizatorImage sourceImage={img1} nameSurname={"Petar Hristovski"} position={"Head Organizator"}></OriganizatorImage>
+                <OriganizatorImage sourceImage={img1} nameSurname={"Petar Hristovski"} position={"FR coordinator"}></OriganizatorImage>
+                <OriganizatorImage sourceImage={img1} nameSurname={"Petar Hristovski"} position={"HR coordinator"}></OriganizatorImage>
             </div>
 
             <div className="lg:flex justify-evenly items-center">
-            <OriganizatorImage sourceImage={img1} nameSurname={"Petar The Sexy Guy"} position={"PR coordinator"}></OriganizatorImage>
-            <OriganizatorImage sourceImage={img1} nameSurname={"Petar The Sexy Guy"} position={"IT coordinator"}></OriganizatorImage>
+            <OriganizatorImage sourceImage={img1} nameSurname={"Petar Hristovski"} position={"PR coordinator"}></OriganizatorImage>
+            <OriganizatorImage sourceImage={img1} nameSurname={"Petar Hristovski"} position={"IT coordinator"}></OriganizatorImage>
             </div>
             </RevealList>
         </section>
